@@ -1,19 +1,52 @@
-# Diário de Treinos — versão simples
+# 📋 Diário de Treinos
 
-Projeto full-stack com Node.js, Express, PostgreSQL, JWT e CRUD.
+Sistema Full Stack desenvolvido como projeto final da disciplina de Desenvolvimento Web.
 
-## Para rodar
+## Funcionalidades
 
-1. `npm install`
-2. Crie no PostgreSQL o banco `diario_treinos`
-3. Copie `.env.example` para `.env` e coloque sua senha
-4. `npm run db:init`
-5. `npm run dev`
-6. Abra `frontend/index.html` com Live Server
+- Cadastro de usuários
+- Login com autenticação JWT
+- Cadastro de exercícios
+- Listagem de exercícios
+- Edição de exercícios
+- Exclusão de exercícios
 
-## Estrutura
+## Tecnologias
 
-- Cadastro e login
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+
+- Node.js
+- Express
+
+### Banco de Dados
+
+- PostgreSQL
+
+### Segurança
+
 - JWT
-- CRUD de exercícios
-- Duas tabelas relacionadas: `usuarios` e `exercicios`
+- bcrypt
+
+## Estrutura do Projeto
+
+frontend/
+src/
+database.sql
+
+## Como executar
+
+1. npm install
+2. Criar o banco diario_treinos
+3. Configurar o .env
+4. npm run db:init
+5. npm run dev
+
+Autor
+
+Guilherme Davi Nunes Macedo
