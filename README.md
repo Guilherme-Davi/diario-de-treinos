@@ -1,6 +1,6 @@
 # 📋 Diário de Treinos
 
-Sistema Full Stack desenvolvido como projeto final da disciplina de Desenvolvimento Web.
+Sistema Full Stack desenvolvido como projeto final da disciplina de Desenvolvimento Web na plataforma OxeTech.
 
 ## Funcionalidades
 
