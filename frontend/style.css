@@ -1,0 +1,179 @@
+:root{
+    --primary:#2f5f8f;
+    --primary-dark:#23476b;
+    --background:#f3f5f8;
+    --card:#ffffff;
+    --text:#2d3436;
+    --border:#dfe6ee;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:var(--background);
+    font-family:Arial, Helvetica, sans-serif;
+    color:var(--text);
+}
+
+/* Cabeçalho */
+
+header{
+    background:linear-gradient(135deg,#23476b,#35689b);
+    color:white;
+    padding:35px 20px;
+    text-align:center;
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+}
+
+header h1{
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+header p{
+    opacity:.9;
+    font-size:17px;
+}
+
+/* Conteúdo */
+
+main{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+h2{
+    font-size:31px;
+    margin-bottom:22px;
+    color:#23476b;
+}
+
+/* Cards */
+
+.card{
+    background:var(--card);
+    border:none;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,.07);
+    transition:.25s;
+}
+
+.card:hover{
+    transform:translateY(-3px);
+}
+
+/* Inputs */
+
+.form-control,
+.form-select{
+    height:50px;
+    border-radius:10px;
+    border:1px solid var(--border);
+    font-size:16px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:var(--primary);
+    box-shadow:0 0 0 .15rem rgba(47,95,143,.18);
+}
+
+/* Botões */
+
+.btn{
+    border-radius:10px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.btn-primary{
+    background:var(--primary);
+    border:none;
+}
+
+.btn-primary:hover{
+    background:var(--primary-dark);
+}
+
+.btn-success{
+    background:#2f855a;
+    border:none;
+}
+
+.btn-success:hover{
+    background:#276749;
+}
+
+.btn-warning{
+    color:white;
+}
+
+.btn-danger{
+    margin-left:5px;
+}
+
+/* Lista */
+
+#lista{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.treino{
+    padding:20px;
+    border-radius:12px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.25s;
+}
+
+.treino:hover{
+    transform:translateY(-2px);
+}
+
+.treino h3{
+    font-size:22px;
+    color:#23476b;
+    margin-bottom:8px;
+}
+
+.treino p{
+    margin-bottom:15px;
+    color:#666;
+}
+
+/* Botões dos cards */
+
+.treino button{
+    margin-right:8px;
+}
+
+/* Botão sair */
+
+#sair{
+    margin-top:20px;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:32px;
+    }
+
+    h2{
+        font-size:26px;
+    }
+
+    .card{
+        margin-bottom:25px;
+    }
+
+}
