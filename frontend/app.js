@@ -1,4 +1,4 @@
-const API='http://localhost:3000/api';
+const API='https://diario-de-treinos.onrender.com/api';
 const auth=document.getElementById('auth'),app=document.getElementById('app'),lista=document.getElementById('lista');
 const campoId=document.getElementById('id'),campoNome=document.getElementById('nome'),campoCategoria=document.getElementById('categoria');
 
